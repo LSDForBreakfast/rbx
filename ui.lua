@@ -1,7 +1,3 @@
---// KostelUI.lua
---// Minimal Roblox UI lib styled after the screenshot:
---// Tabs on top, left panel content with group header, checkbox+keybind, labels, separators, sliders.
-
 -- Make compatible with executors
 local isStudio = game:GetService("RunService"):IsStudio()
 local Players = game:FindService("Players") or game:GetService("Players")
