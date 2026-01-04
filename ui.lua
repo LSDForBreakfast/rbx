@@ -79,7 +79,7 @@ end
 --////////////////////////////
 function Lib:CreateWindow(opts)
 	opts = opts or {}
-	local title = opts.Title or "kostel.ltd"
+	local title = opts.Title or "xixur.ltd"
 	local parent = opts.Parent or nil
 
 	-- Safe parent selection for executors
@@ -101,7 +101,7 @@ function Lib:CreateWindow(opts)
 	end
 
 	local sg = mk("ScreenGui", {
-		Name = "KostelUILib",
+		Name = "xixurUILib",
 		ResetOnSpawn = false,
 		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
 		Parent = parent,
